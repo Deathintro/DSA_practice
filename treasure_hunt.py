@@ -35,11 +35,11 @@ if dir == "left" or dir == "Left":
         print(' Type "Red" to open red door. "Blue" to open blue door. "Yellow" to open yellow door')
         door = input()
         if door == "Yellow" or door == "yellow":
-            print("You Win!")
+            print("You found the Treasure. You Win!")
         elif door == "Red" or door == "red":
-            print("Game Over.")
+            print("It's a room full of fire. Game Over.")
         elif door == "Blue" or door == "blue":
-            print("Game Over.")
+            print("You enter a room of beasts. Game Over.")
         else:
             print("Invalid Input!")
     elif act == "swim" or act == "Swim":
